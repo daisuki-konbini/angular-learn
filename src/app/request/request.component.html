@@ -1,0 +1,8 @@
+<div nz-row>
+  <div nz-col nzSpan="8" *ngFor="let book of books">
+    <nz-card nzTitle="{{book.title}}">
+      <p>{{ book.id }}</p>
+      <p>{{ book.author }}</p>
+    </nz-card>
+  </div>
+</div>
